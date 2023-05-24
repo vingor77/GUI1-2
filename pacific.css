@@ -1,0 +1,124 @@
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+body {
+	background-color: #00569f;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url("ptrbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	padding-left: 20px;
+}
+
+nav a:visited {
+	color: #344873;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2 {
+	color: #3399CC;
+	margin-top: 0px;
+	padding-top: 30px;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+/* 
+	I have made some changes to existing parts. This includes: 
+	-> body(background color, background image, background repeat, and background size)
+	-> nav ul(padding left)
+	-> nav a:visited(text decoration)
+	-> nav a:hover(text decoration)
+
+	New parts I have added are below. 
+*/
+
+#wrapper {
+	height: 100%;
+	max-width: 80%;
+	min-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #90c7e3;
+}
+
+header {
+	background-image: url("sunset.jpg");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-color: #000033;
+	color: white;
+}
+
+nav {
+	float: left;
+	width: 200px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #000033;
+	font-weight: bold;
+}
+
+#content {
+	margin-left: 200px;
+	padding-left: 30px;
+	background-color: white;
+}
+
+#content li {
+	list-style-image: url("marker.gif");
+	list-style-position: inside;
+}
+
+footer {
+	margin-left: 200px;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	font-style: italic;
+	font-size: 90%;
+	background-color: white;
+}
+
+.resort {
+	color: #3399CC;
+}
+
+img {
+	float: left;
+	padding-right: 20px;
+}
